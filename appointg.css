@@ -1,0 +1,19 @@
+body{
+	background-image: url("3.jpg");
+	background-size: cover;
+}
+h1{
+	text-shadow: 5px;
+    text-align: center;
+    transition: all 1s;
+    font-size: 100px;
+    cursor: pointer;
+
+}
+h2{
+	text-align: center;
+	transition-timing-function: ease-in-out; 
+}
+h1:hover{
+	transform: scaleY(1.2);
+}

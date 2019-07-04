@@ -1,0 +1,79 @@
+/*body{
+	background-image: url("2.jpg");
+	background-repeat: no-repeat;
+	background-size: 1550px 750px;
+}*/
+nav{
+	background-image: url("2.jpg");
+}
+h1{
+	text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+	color: white;
+	font-family: "merriweather";
+	font-size: 70px;
+}
+h2{
+	text-align: center;
+	text-shadow: 4px 4px 4px #000000;
+	color: white;
+	font-family: "merriweather";
+	font-size: 40px;	
+}
+img{
+	margin: 10px;
+	border-radius: 25px;
+	height:200px;
+	width:200px;
+	margin-right: 15px;
+	transition: all 1s;
+	padding: 10px;
+	cursor:pointer;
+	border: 5px solid #e699ff;
+	box-shadow: 3px 5px 6px #888888;
+}
+img:hover{
+	transform: scale(1.1);
+}
+.button {
+  background-color: #f44336; /* Green */
+  border: none;
+  color: white;
+  padding: 25px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  position: absolute;
+}
+.wrapper{
+	text-align: center;
+	margin-right: 100px; 
+}
+#myDIV{
+	background-image: url("2.jpg");
+	background-repeat: no-repeat;
+	background-size: 1550px 750px;
+}
+#my{
+	background-image: url("3.jpg");
+	background-size:cover; 
+}
+.colfir{
+	 width: 70%;
+	 text-align: center;
+}
+.colsec{
+	width: 30%;
+	text-align: center;
+	margin-left: 50px;
+}
+.Parmesh2{
+	margin-left:50px;
+}
+.columns{
+	column-count: 2;
+	column-gap: 100px;
+	margin-left: 200px;
+}
